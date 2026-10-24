@@ -153,3 +153,6 @@ async def get_wind_data():
     )
 
     return {"metrics": metrics, "chart_data": merged.to_dict("records")}
+from workers import asgi
+
+Default = asgi.entrypoint(app)

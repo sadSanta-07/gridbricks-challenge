@@ -1,7 +1,30 @@
+# Dependencies
+node_modules/
+python_modules/
+
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
 __pycache__/
 *.py[cod]
-*$py.class
-venv/
-env/
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Environment secrets
 .env
-.pytest_cache/
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

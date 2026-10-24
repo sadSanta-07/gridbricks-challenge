@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "gridbricks-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-24",
+  "vars": {
+    "FRONTEND_ORIGIN": "https://your-project.vercel.app"
+  }
+}
